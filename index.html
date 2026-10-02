@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanushree Bane | Portfolio V2</title>
+    <title>Tanushree Bane | Aspiring Software Developer</title>
     <meta name="description" content="Portfolio of Tanushree Bane, an aspiring software developer passionate about building smart solutions.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,52 +12,6 @@
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
-<style>
-/* V2 Hero redesign */
-.hero {
-    background: radial-gradient(circle at 82% 42%, rgba(139,92,246,.16), transparent 32%),
-                radial-gradient(circle at 8% 78%, rgba(125,211,252,.14), transparent 28%);
-}
-.hero-content { align-items: center; gap: 60px; }
-.hero-text { max-width: 650px; }
-.hero-text .name { font-size: clamp(3rem, 5.5vw, 5rem); line-height: 1; margin-bottom: 14px; }
-.hero-text .title { max-width: 620px; line-height: 1.15; margin-bottom: 18px; }
-.hero-text .tagline { max-width: 600px; margin: 18px 0 26px; }
-.hero-buttons { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
-.hero-graphic { display: flex; align-items: center; justify-content: center; }
-.v2-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 15px;
-    margin-bottom: 18px;
-    border: 1px solid rgba(139,92,246,.25);
-    border-radius: 999px;
-    background: rgba(255,255,255,.72);
-    box-shadow: 0 8px 24px rgba(80,70,140,.08);
-    font-size: .82rem;
-    font-weight: 600;
-    letter-spacing: .04em;
-}
-.v2-badge i { color: #6f86a3; }
-.v2-highlights {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 24px;
-}
-.v2-highlight {
-    padding: 7px 12px;
-    border-radius: 10px;
-    background: rgba(255,255,255,.68);
-    border: 1px solid rgba(120,120,160,.14);
-    font-size: .78rem;
-    font-weight: 500;
-}
-.v2-highlight i { margin-right: 6px; color: #6f86a3; }
-.hero-card { transform: translateY(-4px); box-shadow: 0 28px 70px rgba(85,75,150,.16); }
-</style>
 </head>
 <body>
     <!-- Animated Custom Cursor -->
@@ -80,7 +34,7 @@
             </ul>
 
             <div class="nav-actions">
-                <button id="theme-toggle" class="icon-button" aria-label="Toggle Theme" style="display:none;">
+                <button id="theme-toggle" class="icon-button" aria-label="Toggle Theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
                 <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
@@ -94,27 +48,38 @@
     <header id="home" class="section hero">
         <div class="container hero-content">
             <div class="hero-text reveal">
-                <div class="v2-badge"><i class="fa-solid fa-sparkles"></i> V2 • AI • Data Science • Web</div>
                 <p class="greeting">Hello there, I'm</p>
                 <h1 class="name">Tanushree Bane</h1>
-                <h2 class="title">Computer Engineering Student &amp; Developer</h2>
+                <h2 class="title">Aspiring Software Developer</h2>
                 
                 <div class="typing-container">
                     I am a <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
                 </div>
                 
-                <p class="tagline">"Turning ideas into meaningful digital experiences"</p>
+                <p class="tagline">"Building smart solutions with code, creativity, and curiosity"</p>
                 
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">Explore My Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
-                    <button class="btn btn-outline" id="open-resume-btn">View Resume</button>
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <button class="btn btn-outline" id="open-resume-btn">Download Resume</button>
                 </div>
-
-                <div class="v2-highlights">
-                    <span class="v2-highlight"><i class="fa-solid fa-code"></i> Java & Python</span>
-                    <span class="v2-highlight"><i class="fa-solid fa-brain"></i> AI & Data</span>
-                    <span class="v2-highlight"><i class="fa-solid fa-globe"></i> Web Development</span>
+            </div>
+            <div class="hero-graphic reveal slide-right">
+                <div class="glass-orb orb-1"></div>
+                <div class="glass-orb orb-2"></div>
+                <div class="hero-card glassmorphism">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-snippet">
+                        <p><span class="keyword">const</span> <span class="variable">engineer</span> = {</p>
+                        <p class="indent">name: <span class="string">"Tanushree Bane"</span>,</p>
+                        <p class="indent">passion: <span class="string">"Problem Solving"</span>,</p>
+                        <p class="indent">status: <span class="string">"Continuous Learner"</span></p>
+                        <p>};</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,7 +95,7 @@
                         I am a Computer Engineering student with strong fundamentals in <strong>Data Structures, Java, C/C++, Python, and Object-Oriented Programming</strong>.
                     </p>
                     <p>
-                        Passionate about building real-world solutions through software, web development, and electronics projects. Known for a problem-solving mindset, teamwork, and a continuous learning attitude. Currently exploring Artificial Intelligence, Data Science, and modern web technologies.
+                        Passionate about building real-world solutions through software and electronics projects. Known for a problem-solving mindset, teamwork, and a continuous learning attitude. Actively preparing for software development roles and coding challenges.
                     </p>
                     <div class="quote-box">
                         <i class="fa-solid fa-quote-left"></i>
@@ -147,6 +112,36 @@
                         <li><strong>Practice:</strong> Active coding on LeetCode</li>
                         <li><strong>Internship:</strong> Selected for internship at Wipro</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Profiles -->
+    <section id="coding-profiles" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Coding Profiles</h2>
+            <div class="profiles-grid reveal">
+                <div class="profile-card glassmorphism hover-up">
+                    <div class="profile-icon leetcode"><i class="fa-solid fa-code"></i></div>
+                    <h3>LeetCode</h3>
+                    <p class="badge">Consistent Learner</p>
+                    <a href="https://leetcode.com/tanushree_v_bane/" target="_blank" class="profile-link">View Profile <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="profile-card glassmorphism hover-up">
+                    <div class="profile-icon github"><i class="fa-brands fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p class="badge">Problem Solver</p>
+                    <a href="https://github.com/tanushreebane" target="_blank" class="profile-link">View GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="github-stats">
+                        <img src="https://github-readme-stats.vercel.app/api?username=tanushreebane&show_icons=true&theme=transparent&hide_border=true&title_color=6b7280&text_color=4b5563&icon_color=8b5cf6" alt="GitHub Stats">
+                    </div>
+                </div>
+                
+                <div class="profile-card github-graph-card glassmorphism hover-up">
+                     <h3>Contribution Graph</h3>
+                     <img src="https://ghchart.rshah.org/8b5cf6/tanushreebane" alt="GitHub contributions graph for tanushreebane" class="contribution-graph" />
                 </div>
             </div>
         </div>
@@ -336,6 +331,14 @@
                     </ul>
                 </div>
                 
+                <h2 class="section-title left-align mt-5">Extra-Curricular</h2>
+                <div class="certifications-list glassmorphism">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i> Student Council Core Member</li>
+                        <li><i class="fa-solid fa-star"></i> Documentation Core</li>
+                        <li><i class="fa-solid fa-star"></i> Finance Core</li>
+                    </ul>
+                </div>
             </div>
             
         </div>
